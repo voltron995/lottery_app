@@ -14,6 +14,7 @@ from . import users
 @users.route('/')
 def index():
     users = User.query.filter_by().all()
+
     return render_template('users.html', context=users)
 
 @users.route('/list')
@@ -22,6 +23,7 @@ def get_users_list():
     data = {}
     for user in users:
         data[user.id] = user.username
+
     return json.dumps({'status': '200', 'users': data})
 
 
@@ -36,6 +38,7 @@ def delete_user(*args, **kwargs):
 
         return json.dumps({'status': '200'})
     else:
+
         return json.dumps({'status': '400'})
 
 
@@ -66,5 +69,6 @@ def get_random_users():
     winners = []
     for user in users:
         winners.append(user.username)
+
     return json.dumps({'status': '200', 'users': winners})
 

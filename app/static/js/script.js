@@ -27,8 +27,7 @@ $(document).ready(function () {
             var htmlBlock = "<tr><td>" +
               username +
               "</td><td><button class='btn btn-danger btn-xs delete_button' data-user-id='" +
-              id +
-              "'>delete</button></td></tr>";
+              id + "'><span class='glyphicon glyphicon-trash'></span></button></td></tr>";
             root.append(htmlBlock);
           }
         }

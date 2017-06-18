@@ -4,7 +4,7 @@ DB_CONFIG = {
     'PASSWORD': 'root',
     'HOST': 'localhost',
     'PORT': 5432,
-    'NAME': 'ajax_db'
+    'NAME': 'db'
 }
 
 SECRET_KEY = 'SECRET_KEY'

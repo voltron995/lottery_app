@@ -4,7 +4,6 @@ click==6.7
 dominate==2.3.1
 Flask==0.12
 Flask-Bootstrap==3.3.7.1
-Flask-Login==0.4.0
 Flask-Migrate==2.0.3
 Flask-Script==2.0.5
 Flask-SQLAlchemy==2.2
@@ -13,7 +12,6 @@ itsdangerous==0.24
 Jinja2==2.9.5
 Mako==1.0.6
 MarkupSafe==0.23
-marshmallow==2.13.0
 packaging==16.8
 psycopg2==2.7
 pyparsing==2.1.10
